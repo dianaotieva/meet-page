@@ -11,10 +11,12 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 .container {
-  width: 375px;
+  width: 100%;
+  height: 100%;
 }
 header {
   padding-top: 48px;
@@ -28,9 +30,6 @@ header {
   justify-content: center;
 }
 
-/* .descr-buttons{
-
-} */
 .user-images {
   display: flex;
   justify-content: center;
@@ -116,23 +115,34 @@ header {
   line-height: 26px;
   color: #ffffff;
 }
-.obj {
+
+.obj1 {
+  display: flex;
+  justify-content: center;
+}
+
+.obj2 {
   display: flex;
   justify-content: center;
   position: relative;
+  padding-top: 230px;
+}
+.obj1 > img {
   padding-top: 124px;
 }
 
-.obj > img {
+.obj2 > img {
   position: absolute;
-  top: 5px;
+  top: 124px;
 }
 
 .columns {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin: 0px;
   gap: 25px;
-  padding-top: 64px;
+  padding-top: 192px;
 }
 
 .column1 {
@@ -192,14 +202,15 @@ header {
 }
 
 footer {
-  /* margin-top: 176px; */
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(./image-footer-mb.jpg);
+  margin: auto;
+  background: url(./image-footer-mb.jpg ) ;
   box-shadow: inset 0 0 0 1000px rgba(77, 150, 169, 0.7);
-  /* width: 375px; */
+  width: 100%;
   /* height: 428px; */
 }
 
@@ -259,9 +270,9 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .container {
+  /* .container {
     width: 768px;
-  }
+  } */
 
   .descr-buttons {
     display: flex;
@@ -301,6 +312,7 @@ footer {
   .columns {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 11px;
   }
 
@@ -321,7 +333,9 @@ footer {
   }
   footer {
     background: url(./image-hero-tab.jpg) no-repeat;
+    background-size: 100%;
     /* width: 768px; */
+
   }
 
   .footer-title {
@@ -345,9 +359,9 @@ footer {
 }
 
 @media (min-width: 1440px) {
-  .container{
+  /* .container{
     width: 1440px;
-  }
+  } */
 
   .head {
     display: flex;
@@ -395,9 +409,11 @@ footer {
     display: flex;
     flex-direction: row;
     background: url(./image-footer.jpg) no-repeat;
+    background-size: 100%;
     gap: 100px;
-    /* padding-right: 10px; */
-    /* height: 308px; */
+    padding-top: 124px;
+    /* width: 1440px;
+    height: 308px; */
   }
   .footer-title{
 
