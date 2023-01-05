@@ -88,6 +88,10 @@ header {
   cursor: pointer;
 }
 
+.button-download:hover{
+  background:#35636ec7;
+}
+
 .button-download > h2 {
   font-family: "Red Hat Display";
   font-style: normal;
@@ -105,6 +109,10 @@ header {
   border: none;
   border-radius: 29px;
   cursor: pointer;
+}
+
+.button-what:hover{
+  background: rgba(67, 48, 88, 0.767);
 }
 
 .button-what > h2 {
@@ -247,6 +255,10 @@ footer {
   border: none;
   border-radius: 29px;
   cursor: pointer;
+}
+
+.button-footer:hover{
+  background: rgba(67, 48, 88, 0.767);
 }
 
 .button-footer > h2 {
