@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:wght@100&family=Red+Hat+Display:wght@500;900&display=swap");
 
-/* font-family: 'Red Hat Display', sans-serif; */
+
 
 * {
   margin: 0;
@@ -157,14 +157,12 @@ header {
 .column1 {
   display: flex;
   flex-direction: row;
-  /* margin-top: 64px; */
   gap: 25px
 }
 
 .column2 {
   display: flex;
   flex-direction: row;
-  /* margin-top: 24px; */
   gap: 25px;
 }
 .imgs {
@@ -220,7 +218,6 @@ footer {
   background: url(./image-footer-mb.jpg ) ;
   box-shadow: inset 0 0 0 1000px rgba(77, 150, 169, 0.7);
   width: 100%;
-  /* height: 428px; */
 }
 
 .footer-title {
@@ -283,9 +280,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-  /* .container {
-    width: 768px;
-  } */
 
   .descr-buttons {
     display: flex;
@@ -347,8 +341,6 @@ footer {
   footer {
     background: url(./image-hero-tab.jpg) no-repeat;
     background-size: 100%;
-    /* width: 768px; */
-
   }
 
   .footer-title {
@@ -372,9 +364,6 @@ footer {
 }
 
 @media (min-width: 1440px) {
-  /* .container{
-    width: 1440px;
-  } */
 
   .head {
     display: flex;
@@ -425,8 +414,6 @@ footer {
     background-size: 100%;
     gap: 100px;
     padding-top: 124px;
-    /* width: 1440px;
-    height: 308px; */
   }
   .footer-title{
 
